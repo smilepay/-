@@ -1,0 +1,137 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400);
+
+.color1 {
+  background: #e1f7d5;
+}
+
+.color2 {
+  background: #ffbdbd;
+}
+
+.color3 {
+  background: #7ED2FF;
+}
+
+.color4 {
+  background: #FFFFFF;
+}
+
+.color5 {
+  background: #FFFFA4;
+}
+
+.color6 {
+  background: #D5D5D5;
+}
+
+.mouseon {
+  font-weight: 300;
+  cursor: pointer;
+}
+
+body {
+  padding: 20px;
+}
+
+*, *:before, *:after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+table {
+  font-family: 'Open Sans', Helvetica;
+  background: #efefef;
+}
+
+table tr:nth-child(2n) {
+  background: #eff0f1;
+}
+table tr:nth-child(2n+3) {
+  background: #fff;
+}
+table th, table td {
+  padding: 1em;
+  width: 10em;
+}
+
+.days{
+  background: #E0FFDB;
+  text-transform: uppercase;
+  font-size: 1.3em;
+  text-align: center;
+}
+.time {
+  background: #E0FFDB;
+  text-transform: uppercase;
+  font-size: 1.3em;
+  text-align: center;
+}
+.time {
+  width: 3em !important;
+}
+
+
+[data-tooltip] {
+  position: relative;
+  z-index: 2;
+  cursor: pointer;
+}
+
+
+[data-tooltip]:before,
+[data-tooltip]:after {
+  visibility: hidden;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+  pointer-events: none;
+  -moz-transition: ease 0.5s all;
+  -o-transition: ease 0.5s all;
+  -webkit-transition: ease 0.5s all;
+  transition: ease 0.5s all;
+}
+
+
+[data-tooltip]:before {
+  position: absolute;
+  bottom: 110%;
+  left: 50%;
+  margin-bottom: 5px;
+  margin-left: -80px;
+  padding: 7px;
+  width: 160px;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+  background-color: black;
+  color: #fff;
+  content: attr(data-tooltip);
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.2;
+}
+
+
+[data-tooltip]:after {
+  position: absolute;
+  bottom: 110%;
+  left: 50%;
+  margin-left: -5px;
+  width: 0;
+  border-top: 5px solid black;
+  border-right: 5px solid transparent;
+  border-left: 5px solid transparent;
+  content: " ";
+  font-size: 0;
+  line-height: 0;
+}
+
+
+[data-tooltip]:hover:before,
+
+

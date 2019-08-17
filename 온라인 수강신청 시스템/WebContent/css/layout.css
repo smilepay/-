@@ -1,0 +1,1917 @@
+@charset "utf-8";
+
+* {
+	-webkit-margin-start: 0;
+	-webkit-text-size-adjust: none;
+}
+
+body, select, input, textarea, a[href^="tel:"]:link {
+	font-size: 12px;
+}
+
+#wrapper {
+	padding-top: 73px;
+}
+
+#headwrap {
+	min-width: 320px;
+	height: 73px;
+}
+/*#header{display:none;}*/
+#mbHeader {
+	position: relative;
+	display: block;
+	padding: 13px 10px 11px;
+}
+
+#mbHeader h1 img {
+	width: 43px;
+}
+
+#mbHeader .util {
+	position: absolute;
+	right: 10px;
+	top: 16px;
+}
+
+#mbHeader .util ul {
+	overflow: hidden;
+}
+
+#mbHeader .util li {
+	float: left;
+	margin-right: 15px;
+	text-align: center;
+}
+
+#mbHeader .util li.btn_menu {
+	margin-top: 5px;
+	margin-right: 0;
+}
+
+#mbHeader .util li img {
+	height: 28px;
+	margin-bottom: 5px;
+}
+
+#mbHeader .util li.btn_menu img {
+	margin-bottom: 0;
+}
+
+#mbHeader #mGnb {
+	display: none;
+	position: absolute;
+	left: 0;
+	top: 68px;
+	width: 100%;
+	min-width: 320px;
+	background: #571c1f;
+	z-index: 1000;
+	
+}
+
+#mbHeader #mGnb .depth01>li {
+	position: relative;
+	border-bottom: 1px solid #79494c;
+	
+}
+
+#mbHeader #mGnb .depth01>li.mainMenu06 {
+	border-bottom: none;
+}
+
+#mbHeader #mGnb .depth01>li>a {
+	display: block;
+	height: 28px;
+	padding: 15px 0 0 25px;
+	margin-right: 85px;
+	font: bold 15px NanumGothic;
+	color: #fff;
+}
+
+#mbHeader #mGnb .depth01>li>img {
+	position: absolute;
+	right: 22px;
+	top: 17px;
+	height: 9px;
+	cursor: pointer;
+}
+
+#header_top #gnb .depth1menu>li .gnb03{
+	margin-left:0px;
+	padding-left:0px;
+}
+
+#mbHeader #mGnb .depth01>li .depth02 {
+	display: none;
+	margin-bottom: -1px;
+	background: #79494c;
+}
+
+#mbHeader #mGnb .depth01>li .depth02>li {
+	border-bottom: 1px solid #946d70;
+}
+
+#mbHeader #mGnb .depth01>li .depth02>li>a {
+	display: block;
+	height: 24px;
+	padding: 12px 25px 0 32px;
+	font: bold 13px NanumGothic;
+	color: #fff;
+}
+
+#mbHeader #mGnb .depth01>li.hover .depth02 {
+	display: block;
+}
+
+#sitemapWrap {
+	display: none;
+}
+
+#footerwrap {
+	background: #2c2a29;
+	margin-top: 50px;
+}
+
+#footer {
+	height: auto;
+	padding: 5px 0 33px;
+}
+
+#footer h1, #footer .btn_top {
+	display: none;
+}
+
+#footer .footermenu {
+	float: none;
+	text-align: center;
+	padding: 0 0 18px;
+	border-bottom: 1px solid #565554;
+}
+
+#footer .footermenu li {
+	float: none;
+	display: inline-block;
+	margin-top: 12px;
+}
+
+#footer .footermenu li a {
+	font-size: 14px;
+}
+
+#footer .footermenu li.footmenu01 {
+	padding-left: 0;
+	background: none;
+}
+
+#footer .footermenu li.footmenu06 {
+	padding-left: 0;
+	background: none;
+}
+
+#footer .footermenu:first-child {
+	padding-bottom: 0;
+	border-bottom: none;
+}
+
+#footer .addr {
+	display: none;
+}
+
+#footer .mb_addr {
+	display: block;
+	padding-top: 13px;
+	font-size: 13px;
+	line-height: 25px;
+	color: #aaa;
+	letter-spacing: -0.02pt;
+	text-align: center;
+}
+
+#footer .mb_addr span {
+	background-position: 0 2px;
+}
+
+#footer .mb_addr span.blank {
+	background: none;
+	padding: 0;
+	margin: 0;
+}
+
+#footer .copyright {
+	margin: 0;
+	margin-top: 4px;
+	font-size: 11px;
+	text-align: center;
+	letter-spacing: -0.5pt;
+}
+
+#content {
+	width: 100%;
+}
+
+/* 메인 */
+.main #containerwrap, .main .visual01, .main .visual02, .main .visual03
+	{
+	background: none !important;
+}
+
+.main .section_cont01 h2 {
+	margin-bottom: 18px;
+	font-size: 20px;
+	color: #303030;
+}
+
+.main .section_cont01 .newMenu, .main .cont01_r, .main .cont01_r .quickMenu
+	{
+	float: none;
+	width: 100%;
+}
+
+.main #newMenu {
+	clear: both;
+	position: relative;
+	width: 100%;
+	margin: 0 auto;
+	z-index: 1;
+}
+
+.main #newMenu .owl-pagination {
+	left: 0;
+	top: auto;
+	bottom: 10px;
+	height: 14px;
+	text-align: center;
+	vertical-align: top;
+}
+
+.main #newMenu .owl-pagination .owl-page {
+	width: 14px;
+	height: 14px;
+	margin-right: 5px;
+	
+}
+
+.main #newMenu .owl-pagination .active {
+	
+}
+
+.main #newMenu .item a span {
+	display: block;
+}
+
+.main .cont01_r .storeSearch {
+	margin-top: 35px;
+}
+
+.main .cont01_r h3 {
+	font-size: 17px;
+	color: #303030;
+}
+
+.main .cont01_r .openStore {
+	display: none;
+}
+
+.main .cont01_r .quickMenu {
+	padding-bottom: 39px;
+	border-bottom: 1px solid #ccc;
+}
+
+.main .cont01_r .quickMenu h3 {
+	margin-bottom: 4px;
+}
+
+.main .cont01_r .quickMenu ul {
+	padding: 0;
+}
+
+.main .cont01_r .quickMenu li {
+	width: 25%;
+}
+
+.main .section_cont02>ul>li {
+	width: 50%;
+	margin-top: 36px;
+}
+
+.main .section_cont02>ul>li:nth-child(1), .main .section_cont02>ul>li:nth-child(2)
+	{
+	margin-top: 0;
+}
+
+.main .section_cont02>ul li {
+	font-size: 13px;
+	line-height: 22px;
+}
+
+.main .section_cont02>ul>li>dd>a>img {
+	width: 37.4%;
+	max-width: 112px;
+}
+
+.main .section_cont02 li ul {
+	width: 90%;
+	max-width: 163px;
+}
+
+.main .section_cont02 li li {
+	width: 45.4%;
+	text-align: left;
+	margin-top: 0;
+}
+
+.main .section_cont02 li li:nth-child(2n+1) {
+	margin-right: 15px;
+	text-align: right;
+}
+
+.main .section_cont02 li li img {
+	width: 100%;
+	max-width: 74px;
+}
+
+.main .cont01_r .storeSearch h2 span input {
+	margin: 6px 0 0 16px;
+}
+
+.main .m_section_mall {
+	display: block;
+	float: none;
+	width: 100%;
+	margin-right: 0;
+	padding: 0 10px 34px;
+	box-sizing: border-box;
+}
+
+.main .m_section_mall h2 {
+	margin: 25px 0 15px;
+	font-size: 24px;
+	color: #303030;
+}
+
+.main .m_section_mall h2 em {
+	color: #c01c24;
+}
+
+.main .m_section_mall .owl-pagination {
+	left: 0;
+	top: auto;
+	bottom: -34px;
+	height: 14px;
+	text-align: center;
+	vertical-align: top;
+}
+
+.main .m_section_mall .owl-pagination .owl-page {
+	width: 14px;
+	height: 14px;
+	margin-right: 5px;
+	
+}
+
+.main .m_section_mall .owl-pagination .active {
+	
+}
+
+.main .m_section_mall .item dl {
+	float: right;
+	width: 49.16%;
+	padding: 14px 0 17px;
+	text-align: center;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+}
+
+.main .m_section_mall .item dl:first-child {
+	float: left;
+}
+
+.main .section_cont03 .section_mall {
+	display: none;
+}
+
+.main .section_cont03 .main_bnr {
+	float: none;
+	width: 100%;
+}
+
+.main .section_cont03 .main_bnr ul {
+	overflow: hidden;
+}
+
+.main .section_cont03 .main_bnr li {
+	float: right;
+	width: 49.16%;
+	margin-top: 0;
+}
+
+.main .section_cont03 .main_bnr li:first-child {
+	float: left;
+}
+
+.main .section_cont03 .latest_notice {
+	float: none;
+	width: 100%;
+	margin-top: 38px;
+}
+
+.main .section_cont03 .latest_notice h2 {
+	border-bottom: none;
+}
+
+.main .section_cont03 .latest_notice li {
+	position: relative;
+	padding: 0 90px 0 20px;
+	line-height: 0;
+	border-bottom: 1px solid #e5e5e5;
+	background-position: 10px 19px;
+}
+
+.main .section_cont03 .latest_notice li a {
+	display: inline-block;
+	width: 100%;
+	height: 39px;
+	line-height: 39px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.main .section_cont03 .latest_notice li img.icon {
+	display: none;
+}
+
+.main .section_cont03 .latest_notice li:first-child {
+	margin: -4px 0 0;
+	padding-left: 20px;
+	background: url('rollbb.png') no-repeat 10px 19px;
+}
+
+.main .section_cont03 .latest_notice li dt a {
+	font: normal 13px/39px NanumGothic;
+	color: #707070;
+}
+
+.main .section_cont03 .latest_notice li dd {
+	display: none;
+}
+
+.main .section_cont03 .latest_notice li span.date {
+	position: absolute;
+	right: 10px;
+	display: inline;
+	line-height: 39px;
+	color: #a0a0a0;
+}
+
+.main #mainVisual {
+	display: none;
+}
+
+.main #m_mainVisual {
+	display: block !important;
+}
+
+.main #m_mainVisual .item img {
+	width: 100%;
+}
+
+.main #m_mainVisual .owl-pagination {
+	left: 0;
+	top: auto;
+	bottom: 10px;
+	height: 14px;
+	text-align: center;
+	vertical-align: top;
+}
+
+.main #m_mainVisual .owl-pagination .owl-page {
+	width: 14px;
+	height: 14px;
+	margin-right: 5px;
+	
+}
+
+.main #m_mainVisual .owl-pagination .active {
+	background-image: url('rollbb.png');
+}
+
+.main #m_mainVisual .item a span {
+	display: block;
+}
+
+/* 서브 */
+.bbsList01 {
+	margin-top: 29px;
+}
+
+.bbsList01 thead th, .bbsList01 tbody th, .bbsList01 tfoot th {
+	height: 28px;
+	font-size: 13px;
+}
+
+.bbsList01 thead th, .bbsList01 tfoot th {
+	padding: 0 5px;
+	white-space: nowrap;
+	box-sizing: border-box;
+}
+
+.bbsList01 tbody td, .bbsList01 tfoot td {
+	height: 28px;
+	padding: 3px 5px;
+	box-sizing: border-box;
+}
+
+.bbsList01 tbody td p, .bbsList01 tfoot td p {
+	padding: 0 5px;
+	height: 14px;
+	overflow: hidden;
+}
+
+.bbsView01 {
+	padding: 25px 0;
+}
+
+.bbsViewLIst th {
+	height: 28px;
+	padding: 0 5px;
+	white-space: nowrap;
+	box-sizing: border-box;
+}
+
+.bbsViewLIst td {
+	height: 28px;
+	padding: 3px 10px;
+	box-sizing: border-box;
+}
+
+.bbsViewLIst td p {
+	height: 14px;
+	overflow: hidden;
+}
+
+.bbsForm01 th {
+	font-size: 13px;
+}
+
+.bbsForm01 th span {
+	padding: 0 5px;
+	white-space: nowrap;
+}
+
+.bbsForm01 td p {
+	padding: 0 10px;
+}
+
+.bbsForm01 td select.formSelect, .bbsForm01 td input.formEmail02 {
+	width: 35%;
+}
+
+.bbsForm01 td input.formText {
+	width: 30%;
+}
+
+.bbsForm01 td input.formTel, .bbsForm01 td input.formPost, .bbsForm01 td select.formMM,
+	.bbsForm01 td select.formDD {
+	width: 5.26%;
+	min-width: 50px
+}
+
+.bbsForm01 td input.formAddr {
+	width: 80%;
+}
+
+.bbsForm01 td input.formTitle {
+	width: 100%;
+}
+
+.bbsForm01 td textarea {
+	height: 131px;
+}
+
+.menu #containerwrap, .event #containerwrap, .store #containerwrap,
+	.service #containerwrap, .community #containerwrap, .company #containerwrap,
+	.member #containerwrap, .affiliate #containerwrap, .mypage #containerwrap
+	{
+	background: none !important;
+}
+
+#container #visual {
+	display: none;
+}
+
+#container .section_title {
+	margin: 27px 0 26px;
+}
+
+#container .section_title h1 {
+	font-size: 20px;
+}
+
+#container .page_path {
+	display: none;
+}
+
+#container .sub_tabMenu {
+	margin: -1px -10px;
+	0
+}
+
+#container .sub_tabMenu li {
+	background-size: 100% 39px;
+}
+
+#container .sub_tabMenu li a {
+	height: 30px;
+	padding-top: 9px;
+	font-size: 14px;
+	line-height: 22px;
+}
+
+#content .tabMenu ul {
+	margin-bottom: 25px;
+	padding-top: 1px;
+}
+
+#content .tabMenu li, #content .tabMenu li.current, #content .tabMenu02 li,
+	#content .tabMenu02 li.current {
+	width: 33.3%;
+	height: 38px;
+	margin-top: -1px;
+	font-size: 14px;
+	background-image: url('rollbb.png');
+	background-size: 100% 38px;
+}
+
+#content .tabMenu li.current {
+	padding-top: 2px;
+	background-image: url('rollbb.png');
+}
+
+#content .tabMenu li a, #content .tabMenu02 li a {
+	height: 26px;
+	padding-top: 10px;
+	font-size: 14px;
+}
+
+#content .tabMenu li.current a, #content .tabMenu02 li.current a {
+	height: 27px;
+	padding-top: 9px;
+	font-size: 16px;
+	border-color: #ccc;
+}
+
+#content .tabMenu02 li:nth-child(5n+1) a {
+	border-right: 1px solid #ccc;
+	border-left: none;
+}
+
+#content .tabMenu li:nth-child(3n+1) a, #content .tabMenu02 li:nth-child(3n+1) a
+	{
+	padding-top: 10px;
+	border-left: 1px solid #ccc !important;
+}
+
+#content .tabMenu02 li.current {
+	padding-top: 1px;
+}
+
+#content .tabMenu02 ul {
+	margin: 23px 0 -9px;
+}
+
+#content .selectLink {
+	margin-bottom: 10px;
+}
+
+#content h2.section_title01 {
+	margin: 21px 0 25px;
+	padding: 3px 0 9px;
+	font-size: 16px;
+}
+
+#content h2.section_title02 {
+	margin-top: 29px;
+	font-size: 16px;
+	background-position: 0 1px;
+}
+
+/* MENU */
+.newmenu .selectLink select, .recmenu .selectLink select {
+	width: 80%;
+	max-width: 390px;
+}
+
+.menu #content .recMenu .menuList>li {
+	width: 33.3%;
+	padding: 15px 0 22px;
+}
+
+.menu #content .recMenu .menuList>li .item_info dt a {
+	font-size: 13px;
+}
+
+/* EVENT */
+.event #content .hot_event>ul>li {
+	margin-top: 25px;
+	padding: 12px 3.51% 20px;
+}
+
+.event #content .hot_event>ul>li .cont_l {
+	float: none;
+	width: 100%;
+}
+
+.event #content .hot_event>ul>li .cont_r {
+	float: none;
+	width: 100%;
+}
+
+.event #content .hot_event>ul>li .cont_r dt {
+	margin-bottom: 13px;
+	padding: 23px 0 9px;
+	font-size: 16px;
+}
+
+.event #content .hot_event>ul>li .cont_r dd.thum li {
+	text-align: center;
+}
+
+.event #content .event_list02>ul>li {
+	padding-top: 25px;
+	padding-bottom: 24px;
+}
+
+.event #content .event_list03>ul>li {
+	margin-top: 25px;
+}
+
+.event #content .event_list03>ul>li .info td.introduce {
+	padding: 8px 0 8px 10px;
+}
+
+/* STORE */
+.store .storeList {
+	overflow: visible;
+	margin: -15px auto -30px !important;
+	padding-bottom: 30px;
+}
+
+.store .storeList .sotoreSearch, .store .storeGlobalList .sotoreSearch,
+	.store .storeView {
+	margin-top: 30px !important;
+}
+
+.store .storeList .sotoreSearch fieldset, .store .storeGlobalList .sotoreSearch fieldset
+	{
+	padding: 13px 10px 20px;
+}
+
+.store .storeList .sotoreSearch fieldset .map {
+	display: none;
+}
+
+.store .storeList .sotoreSearch fieldset .searchForm {
+	float: none;
+	width: 100%;
+}
+
+.store .storeList .sotoreSearch fieldset .searchForm th {
+	font-size: 13px;
+}
+
+.store .storeList .sotoreSearch fieldset .searchForm th span {
+	padding-left: 0;
+}
+
+.store .storeList .sotoreSearch fieldset .searchForm td li input[type="radio"]
+	{
+	margin-top: 5px;
+}
+
+.store .storeList .sotoreSearch fieldset .searchForm td.class li input {
+	margin-top: 5px;
+}
+
+.store .storeList .sotoreSearch fieldset .searchForm .btn_c a {
+	height: 24px;
+	padding: 6px 20px 0;
+	font-size: 16px;
+}
+
+.store .storeList .sotoreSearch fieldset .searchForm .btn_c a img {
+	height: 15px;
+	margin: 2px 7px 0 0;
+}
+
+.store .localList td.service img {
+	margin-bottom: 5px;
+}
+
+.store .localList th {
+	width: auto;
+	padding: 4px 0 5px;
+}
+
+.store .localList th dl {
+	padding-right: 10px;
+}
+
+.store .localList th dt {
+	font-size: 16px;
+}
+
+.store .localList th dd.addr {
+	font-size: 13px;
+}
+
+.store .localList th dd.tel {
+	font-size: 14px;
+}
+
+.store .localList td.service {
+	width: 32%;
+}
+
+.store .localList td.service img {
+	width: 24px;
+	margin-left: 0;
+	margin-right: 4px;
+}
+
+.store .localList td.btn {
+	display: none;
+	width: 93px;
+	text-align: center;
+}
+
+.store .localList td.btn a {
+	padding: 4px 10px 0;
+}
+
+.store .globalList th dl {
+	padding: 17px 10px 19px;
+}
+
+.store .globalList td.btn {
+	display: table-cell;
+	width: 93px;
+	text-align: center;
+}
+
+.store .storeView .storeInfo {
+	padding: 20px;
+}
+
+.store .storeView .storeInfo .thumArea {
+	float: none;
+	width: 100%;
+	padding-top: 0;
+}
+
+.store .storeView .storeInfo .thumArea .bImg {
+	text-align: center;
+}
+
+.store .storeView .storeInfo .thumArea ul {
+	overflow: hidden;
+}
+
+.store .storeView .storeInfo .info {
+	float: none;
+	width: 100%;
+	margin-top: 30px;
+}
+
+.store .storeView .storeInfo .info h2 {
+	padding-bottom: 6px;
+	font-size: 17px;
+}
+
+.store .storeView .storeInfo .info h2 img {
+	margin-top: 3px;
+}
+
+.store .storeView .storeInfo .info h2 img.type {
+	width: 24px;
+	height: 30px;
+	margin-top: 0;
+}
+
+.store .storeView .storeInfo .info h2 img.class {
+	margin-top: 4px;
+}
+
+.store .storeView .storeInfo .info h2 span.good {
+	display: block;
+	text-align: left;
+	padding-left: 0;
+}
+
+.store .storeView .storeInfo .info th {
+	font-size: 13px;
+	white-space: nowrap;
+	padding-right: 5px;
+}
+
+.store .storeView .storeInfo .info td {
+	padding: 5px 0;
+}
+
+.store .storeView .storeInfo .info .btn_lr {
+	margin-top: 20px;
+}
+
+.store .storeView>h2 {
+	margin-top: 24px !important;
+	padding-bottom: 9px;
+}
+
+.store .storeView .storeMap {
+	margin-top: 25px;
+}
+
+.store .storeGlobalList .sotoreSearch fieldset .map {
+	display: none;
+}
+
+.store .storeGlobalList .sotoreSearch fieldset .searchForm h2 {
+	font-size: 16px;
+	padding: 5px 0 9px;
+}
+
+.store .storeGlobalList .sotoreSearch fieldset .searchForm th span {
+	padding-left: 0;
+	padding-right: 5px;
+	white-space: nowrap;
+}
+
+.store .storeGlobalList .sotoreSearch fieldset .searchForm th input {
+	margin-top: 4px;
+}
+
+.store .storeGlobalList .sotoreSearch fieldset .searchForm td li {
+	width: 33%;
+	margin-left: 0;
+	padding-top: 2px;
+}
+
+.store .storeGlobalList .sotoreSearch fieldset .searchForm td input[type="checkbox"]
+	{
+	margin-top: -2px;
+}
+
+.store .storeGlobalList .sotoreSearch fieldset .searchForm td.btn .formText
+	{
+	width: 135px;
+	margin-left: 5px;
+}
+
+.store .storeGlobalList .sotoreSearch fieldset .searchForm td.btn a {
+	padding: 9px 10px 0;
+}
+
+.store .globalNewStore {
+	margin-top: 25px;
+	padding: 24px 20px 20px 19px;
+}
+
+.store .globalNewStore>li dl {
+	padding-top: 0;
+}
+
+.store .globalNewStore>li dt {
+	font-size: 16px;
+}
+
+.store .globalNewStore>li dd.addr {
+	margin: 4px 0;
+	font-size: 13px;
+	line-height: 20px;
+}
+
+.store .globalNewStore>li dd.tel {
+	margin-bottom: 8px;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+.store .globalNewStore>li dd.service img {
+	width: 24px;
+}
+
+.store .globalNewStore>li dd.btn {
+	margin-top: 20px;
+}
+
+.store .newStore {
+	margin-top: 29px !important;
+}
+
+.store .newStore .newStoreList li {
+	margin-top: 25px;
+}
+
+.store .newStore .newStoreList li .box {
+	padding: 20px 25px;
+}
+
+.store .newStore .newStoreList li .sticker {
+	position: absolute;
+	right: 15px;
+	top: -1px;
+}
+
+.store .newStore .newStoreList li .thum {
+	float: none;
+	width: 100%;
+	text-align: center;
+}
+
+.store .newStore .newStoreList li .info {
+	float: none;
+	width: 100%;
+}
+
+.store .newStore .newStoreList li .info h3 {
+	margin-top: 15px;
+	padding-bottom: 10px;
+	font-size: 16px;
+	line-height: 24px;
+}
+
+.store .newStore .newStoreList li .info th {
+	width: 15.88%;
+	padding: 8px 10px 7px 0;
+	font-size: 13px;
+	line-height: 20px;
+}
+
+.store .newStore .newStoreList li .info td {
+	padding: 5px 0;
+	line-height: 20px;
+}
+
+/* SERVICE */
+.service #content .tabMenu {
+	background: none;
+}
+
+.service #content .tabMenu li {
+	width: 50%;
+}
+
+.service #content .tabMenu li:nth-child(3n+1) a {
+	border-left: none !important;
+}
+
+.service #content .tabMenu li:nth-child(2n+1) a {
+	border-left: 1px solid #ccc !important;
+}
+
+.service #content .tabMenu li:nth-child(2n+2).current_l a {
+	border-right: 1px solid #ccc !important;
+}
+
+.service #content h2.section_title02 {
+	margin-top: 21px;
+}
+
+.service #content>p.txt {
+	margin-top: 10px;
+	line-height: 20px;
+}
+
+.service #content>ul>li {
+	line-height: 20px;
+	background-position: 28px 9px;
+}
+
+.service #content>ul>li.btn {
+	margin-top: 10px;
+}
+
+.service #content .bbsList01 {
+	margin: 9px 0 25px;
+}
+
+.service #content .bbsForm01 tbody td li, .service .franchise_info .bbsList01 tbody td li
+	{
+	padding-left: 18px;
+	line-height: 20px;
+	background-position: 10px 9px;
+}
+
+.service .prepaidCard {
+	margin-top: -19px !important;
+}
+
+.service .prepaidCard>p.img {
+	display: none;
+}
+
+.service .prepaidCard .cardClass table {
+	width: 50%;
+}
+
+.service .prepaidCard .cardClass thead th {
+	font-size: 13px;
+	height: 28px;
+}
+
+.service .prepaidCard .cardClass tbody td {
+	padding: 8px 0;
+}
+
+.service .prepaidCard .cardClass tbody td p.img {
+	padding: 5px 16px 10px;
+}
+
+.service .prepaidCard .guide>ol {
+	margin-top: 8px;
+	margin-bottom: 10px;
+}
+
+.service .prepaidCard .guide .appBtn {
+	float: none;
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+.service .prepaidCard .guide .appBtn img {
+	width: 45%;
+	max-width: 230px;
+}
+
+.service .prepaidCard .guide .guide01, .service .prepaidCard .guide .guide02,
+	.service .prepaidCard .guide .guide03 {
+	padding: 6px 14px 0;
+}
+
+.service .prepaidCard .guide ul {
+	margin-top: 14px;
+}
+
+.service .prepaidCard .guide ul>li {
+	width: 30%;
+	margin-right: 5%;
+	margin-bottom: 15px;
+}
+
+.service .prepaidCard .guide ul>li p.img img {
+	width: 100%;
+	max-width: 260px;
+}
+
+.service .prepaidCard .guide ul>li:nth-child(3n+3) {
+	margin-right: 0;
+}
+
+.service .prepaidCard .guide .guide03 {
+	margin-bottom: -15px;
+}
+
+.service .prepaidCard h3 {
+	margin-top: 22px;
+	font-size: 13px;
+}
+
+.service .prepaidCard h3.noUse {
+	margin-top: 14px;
+}
+
+.service .prepaidCard h3.noUse02 {
+	margin-top: 9px;
+}
+
+.service .membership .guide, .service .membership .heed, .service .membership .rule
+	{
+	margin-top: 24px;
+}
+
+.service .membership .info ul.img {
+	overflow: hidden;
+	margin: 21px 0 -1px;
+	text-align: center;
+}
+
+.service .membership .info ul.img li {
+	display: block;
+	float: right;
+	width: 23.93%;
+}
+
+.service .membership .info ul.img li:first-child {
+	float: left;
+	width: 63.74%;
+}
+
+.service .membership .info ul.img li img {
+	width: 100%;
+	max-width: 202px;
+}
+
+.service .membership .info ul.img li:first-child img {
+	margin-top: 0px;
+}
+
+.service .membership .m_guide h2 {
+	margin-bottom: 24px;
+}
+
+.service .membership .m_guide h3 {
+	margin-bottom: 15px;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+.service .membership .m_guide li {
+	line-height: 20px;
+}
+
+.service .membership .m_guide li span {
+	display: inline;
+}
+
+.service .membership .process ul {
+	margin: 20px 0 30px;
+}
+
+.service .membership .process li {
+	display: block;
+	padding-left: 0;
+	margin: 0 auto 25px;
+}
+
+.service .membership .bbsForm01 tbody th {
+	padding: 0 10px;
+	white-space: nowrap;
+}
+
+.service .membership .m_guide p.img {
+	float: none;
+	width: 100%;
+	text-align: center;
+}
+
+.service .membership .m_guide dl {
+	float: none;
+	width: 100%;
+	padding-top: 30px;
+}
+
+.service .membership .m_guide dt {
+	font-size: 16px;
+	line-height: 20px;
+}
+
+.service .membership .m_guide dd p.txt {
+	margin: 10px 0 12px;
+	line-height: 20px;
+}
+
+.service .membership .m_guide dd p.notice {
+	margin-top: 12px;
+	line-height: 20px;
+}
+
+.service .giftCard .info p.txt {
+	margin-top: 10px;
+	line-height: 20px;
+}
+
+.service .giftCard .info, .service .partnerCard h2 {
+	margin-top: 28px;
+}
+
+.service .giftCard .info .card {
+	margin-top: 20px;
+}
+
+.service .partnerCard h2 {
+	font-size: 16px;
+}
+
+.service .partnerCard>ul>li {
+	padding: 25px 0 26px;
+}
+
+.service .partnerCard>ul>li p.img {
+	width: 35%;
+}
+
+.service .partnerCard>ul>li dl {
+	width: 60%;
+}
+
+.service .partnerCard>ul>li .btn_r {
+	margin-top: 15px;
+}
+
+.service .koroMachine .info, .service .foodTruck .info {
+	margin: 30px 0 25px;
+}
+
+.service .koroMachine .info .desc h2 img {
+	width: 100%;
+	max-width: 156px;
+}
+
+.service .koroMachine .info .desc .txt01 {
+	margin-top: 20px;
+	font-size: 13px;
+}
+
+.service .koroMachine .info .desc .txt02 {
+	margin-bottom: 15px;
+	font-size: 17px;
+}
+
+.service .koroMachine .info .desc .btn, .service .foodTruck .info .desc .btn
+	{
+	margin-top: 15px;
+}
+
+.service .koroMachine .notcie {
+	margin-top: -15px;
+}
+
+.service .foodTruck .info {
+	border: none;
+}
+
+.service .foodTruck .info p.img {
+	float: none;
+	width: 100%;
+	text-align: center;
+}
+
+.service .foodTruck .info .desc {
+	float: none;
+	width: 100%;
+}
+
+.service .foodTruck .info .desc h2 img {
+	width: 100%;
+	max-width: 334px;
+}
+
+.service .foodTruck .info .desc .txt01 {
+	margin: 12px 0 13px;
+	font-size: 13px;
+	line-height: 22px;
+}
+
+.service .foodTruck .info .desc dt {
+	margin-bottom: 8px;
+}
+
+.service .foodTruck .cont02 {
+	margin-top: -10px;
+}
+
+.service .foodTruck .cont02 .img {
+	float: none;
+	width: 100%;
+}
+
+.service .foodTruck .cont02 .img .img01, .service .foodTruck .cont02 .img .img02
+	{
+	width: 50.1%;
+	text-align: right;
+	margin-right: 0;
+	padding-right: 1px;
+	box-sizing: border-box;
+}
+
+.service .foodTruck .cont02 .text {
+	float: none;
+	width: 100%;
+	margin-top: 0;
+}
+
+.service .foodTruck .cont02 .text ul {
+	margin-top: 10px;
+}
+
+.service .foodTruck .cont03 {
+	margin-top: 30px;
+	padding: 25px 25px;
+}
+
+.service .foodTruck .cont03 h2 {
+	padding-top: 12px;
+	font-size: 18px;
+}
+
+.service .foodTruck .cont03 dt {
+	margin: 13px 0 7px;
+	font-size: 16px;
+	line-height: 20px;
+}
+
+.service .foodTruck .cont03 dt:first-child {
+	padding-top: 20px;
+}
+
+.service .foodTruck .cont03 dd {
+	font-size: 13px;
+	line-height: 22px;
+}
+
+.service .franchise_info .cont01 h2 {
+	margin-bottom: 10px;
+	font-size: 16px;
+	line-height: 20px;
+}
+
+.service .franchise_info .cont01 .box {
+	margin-bottom: 25px;
+	padding: 12px 15px 13px;
+}
+
+.service .franchise_info .cont01 .box li {
+	line-height: 20px;
+	background-position: 0 9px;
+}
+
+.service .franchise_info .cont01 .box p {
+	margin-top: 10px;
+	font-size: 13px;
+	line-height: 20px;
+}
+
+.service .franchise_info .bbsList01 tbody td {
+	padding: 6px 0;
+}
+
+.service .franchise_info .cont01 .notice {
+	margin-top: -15px;
+	line-height: 20px;
+}
+
+.service .storekeeper ul {
+	margin-top: 9px;
+}
+
+.service .storekeeper li {
+	width: 50%;
+	margin-top: 25px;
+}
+
+.service .franchise_process .process li {
+	display: block;
+	padding-left: 0;
+	margin: 0 auto 25px;
+}
+
+.service .ascaso .visual .info p {
+	font-size: 14px;
+	line-height: 23px;
+}
+
+.service .ascaso .brand_info .img {
+	float: none;
+	width: 100%;
+	text-align: center;
+}
+
+.service .ascaso .brand_info .info {
+	float: none;
+	width: 100%;
+	margin-top: 30px;
+}
+
+.service .ascaso .brand_info .info dt {
+	font-size: 16px;
+	line-height: 20px;
+}
+
+.service .ascaso .brand_info .info dd {
+	margin: 7px 0 11px;
+	line-height: 20px;
+}
+
+.service .ascaso .product ul {
+	margin-top: 14px;
+}
+
+.service .ascaso .product li dt {
+	margin-top: 20px;
+	padding-top: 10px;
+	font: 16px;
+	line-height: 22px;
+}
+
+.service .franchise_story h2, .service .franchise_storyView h2 {
+	font-size: 16px;
+}
+
+.service .storekeeperList ul {
+	margin-top: 9px;
+}
+
+.service .storekeeperList li {
+	float: none;
+	width: 100%;
+	padding: 26px 0 25px
+}
+
+.service .storekeeperList li:nth-child(1) {
+	padding-top: 25px;
+}
+
+.service .storekeeperList li:nth-child(2) {
+	padding-top: 26px;
+	background: url('images/bg_dotted_line01.gif') repeat-x 0 0;
+}
+
+.service .storekeeperList li p.thum {
+	float: left;
+	width: 24.86%;
+	max-width: 140px;
+	margin-right: 5.32%;
+	padding-bottom: 5px;
+}
+
+.service .storekeeperList li dl {
+	float: left;
+	width: 69.82%;
+}
+
+.service .storekeeperList li dt {
+	font-size: 15px;
+}
+
+.service .storekeeperList li dd.name, .service .storekeeperList li dd.txt
+	{
+	line-height: 20px;
+}
+
+.service .franchise_storyView .cont01 .box {
+	padding: 20px;
+}
+
+.service .franchise_storyView .cont01 .thum {
+	float: left;
+	width: 34.02%;
+	margin-right: 3.78%;
+}
+
+.service .franchise_storyView .cont01 .thum img {
+	width: 100%;
+	max-width: 358px;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+}
+
+.service .franchise_storyView .cont01 .info {
+	float: left;
+	width: 62.2%;
+}
+
+.service .franchise_storyView .cont01 .info h2 {
+	margin-top: -2px;
+	padding: 0 0 9px;
+}
+
+.service .franchise_storyView .cont01 .info thead th {
+	font-size: 13px;
+}
+
+.service .franchise_storyView .cont01 .info tbody td {
+	padding-top: 10px;
+	line-height: 20px;
+}
+
+.service .franchise_storyView h2.section_title02 {
+	padding-bottom: 9px;
+}
+
+.service .franchise_storyView .interview {
+	padding-top: 20px;
+	line-height: 20px;
+}
+
+.service .franchise_storyView .interviewVod {
+	padding: 25px 0;
+}
+
+/* COMMUNITY */
+.csrList01>ul>li {
+	width: 100%;
+	margin-right: 0;
+}
+
+.csrList01>ul>li .box {
+	height: auto;
+	margin-bottom: 25px;
+	padding-bottom: 20px;
+}
+
+.csrList01>ul>li .box dt {
+	margin: 9px 0 7px;
+	font-size: 16px;
+}
+
+.csrList01>ul>li .box .btn_c {
+	position: static;
+	margin-top: 16px;
+}
+
+.csrList02>ul>li, .csrList03>ul>li {
+	width: 47.5%;
+	padding: 26px 5% 25px 0;
+}
+
+.csrList02>ul>li:nth-child(3n+3), .csrList03>ul>li:nth-child(3n+3) {
+	padding-right: 5%;
+}
+
+.csrList02>ul>li:nth-child(2n+2), .csrList03>ul>li:nth-child(2n+2) {
+	padding-right: 0;
+}
+
+.csrList02>ul>li:nth-child(3), .csrList03>ul>li:nth-child(3) {
+	padding-top: 26px;
+	background: url('images/bg_dotted_line01.gif') repeat-x 0 0;
+}
+
+.csrList02>ul>li p.thum, .csrList03>ul>li p.thum {
+	max-width: 100%;
+	box-sizing: border-box;
+}
+
+.csrList02>ul>li p.title a {
+	font-size: 14px;
+	height: 32px;
+}
+
+.csrList03>ul>li .box, .art .csrList01>ul>li .box {
+	height: auto;
+	padding-bottom: 20px;
+}
+
+.csrList03>ul>li dl {
+	padding: 13px 15px 0;
+	line-height: 20px;
+}
+
+.csrList03>ul>li dt {
+	overflow: hidden;
+	font-size: 14px;
+}
+
+.social .csrList01>ul>li .box {
+	height: auto;
+}
+
+.community .snsInfo .snsBox {
+	width: 47.5%;
+	margin-right: 5%;
+}
+
+.community .snsInfo .snsBox .sns_inner {
+	height: 400px;
+}
+
+.community .snsInfo .snsI {
+	margin-right: 0;
+}
+
+.community .snsInfo .side {
+	float: none;
+	width: 100%;
+	overflow: hidden;
+	margin-top: 30px;
+	padding-top: 30px;
+}
+
+.community .snsInfo .side dl {
+	float: left;
+	width: 30%;
+	margin-right: 2.5%;
+	border-bottom: none;
+}
+
+.community .snsInfo .side dt {
+	font-size: 16px;
+}
+
+.community .snsInfo .side dt em {
+	font-size: 22px;
+}
+
+.community .snsInfo .side dd {
+	margin-top: 7px;
+	font-size: 13px;
+	line-height: 24px;
+}
+
+.community .snsInfo .side .snsBtn {
+	float: left;
+	width: 25%;
+	margin-right: 2.5%;
+	border-bottom: none;
+}
+
+.community .snsInfo .side .youtube {
+	float: left;
+	width: 40%;
+}
+
+.community .snsInfo .side .youtube .btn {
+	margin-top: 15px;
+	text-align: center;
+}
+
+/* MEMBER */
+.member #container .section_title, .mypage #container .section_title {
+	margin-bottom: 27px;
+}
+
+.member #content h2.section_title02 {
+	margin: 24px 0 9px;
+}
+
+.member .login_box {
+	padding: 20px 4.39%;
+	
+}
+
+.member .login_box fieldset {
+	float: none;
+	width: 50.77%;/*수정*/
+	padding-top: 20px;
+}
+
+.member .login_box fieldset h2 {
+	font-size: 16px;
+}
+
+.member .login_box fieldset table {
+	width: 50%;/*수정*/
+	align: center;
+	padding-top: 100px;
+}
+
+.member .login_box .btn_find {
+	float: none;
+	width: 100%;
+	margin-top: 20px;
+	padding: 7px 0 10px;
+	border-left: none;
+}
+
+.member .login_box .btn_find li dt {
+	font-size: 14px;
+}
+
+.member .join_step {
+	display: none;
+}
+
+.member .oneID_info .img, .member .oneID_info02 .img {
+	display: none;
+}
+
+.member .oneID_info ul {
+	float: none;
+	width: 100%;
+	padding: 26px 10px;
+	box-sizing: border-box;
+}
+
+.member .oneID_info02 dl {
+	float: none;
+	width: 100%;
+	padding: 28px 10px 25px;
+	box-sizing: border-box;
+}
+
+.member .oneID_info li, .member .oneID_info02 dd {
+	padding: 0 25px 0 18px;
+	line-height: 20px;
+	background-position: 10px 9px;
+}
+
+.member .oneID_info02 dt {
+	margin-bottom: 10px;
+	padding-left: 10px;
+	font-size: 16px;
+	line-height: 20px;
+}
+
+.member .join_box01 li dt {
+	margin-top: 16px;
+	font-size: 14px;
+}
+
+.member .join_step01 p.info, .member .find_step01 p.info, .member .join_step01_new .info
+	{
+	margin-top: 8px;
+	line-height: 20px;
+}
+
+.member .join_step02 h3 {
+	margin-top: 25px;
+	font-size: 16px;
+	line-height: 20px;
+}
+
+.member #content .rule_box {
+	height: 88px;
+	margin: 9px 0;
+	padding: 14px 10px;
+}
+
+.member .join_step02 .all_agree {
+	margin-top: 27px;
+	padding: 13px 0 12px;
+}
+
+.member .join_step03 .bbsForm01 td span.btn {
+	display: block;
+	margin-top: 10px;
+	padding-left: 0;
+}
+
+.member .join_step03 .bbsForm01 td span.info {
+	display: block;
+	margin-top: 8px;
+	padding-left: 0;
+}
+
+.member .join_step03 .bbsForm01 td select.formYY {
+	max-width: 60px;
+}
+
+.member .join_step03 .bbsForm01 td p.addr01 span.btn {
+	display: inline;
+	margin: 0;
+	padding-left: 5px;
+}
+
+.member .join_step03 .bbsForm01 td p.hp .btn {
+	display: block;
+}
+
+.member .join_step04 .join_result {
+	margin: 50px 0 100px;
+}
+
+.member .join_step04 .join_result p {
+	font-size: 16px;
+	line-height: 26px;
+}
+
+.member .join_step02 .agree_info {
+	padding: 12px 15px 0;
+}
+
+.member .find_step02 fieldset, .member .find_step03 .box {
+	padding: 27px 5% 30px;
+}
+
+.member .find_step02 fieldset h2, .member .find_step03 .box h2 {
+	margin-bottom: 7px;
+	font-size: 17px;
+}
+
+.member .find_step02 fieldset td input.formText {
+	width: 120px;
+}
+
+.member .find_step02 fieldset p.desc, .member .find_step03 .box p.desc {
+	line-height: 20px;
+}
+
+.member .find_step03 .box .id_result {
+	font-size: 17px;
+}
+
+#item_detail .title01 h2 {
+	font-size: 16px;
+	padding-bottom: 9px;
+}
+
+#item_detail .title01 .btn {
+	position: static;
+	text-align: left;
+	padding-bottom: 10px;
+}
+
+#item_detail .title02 h3 {
+	font-size: 13px;
+	background-position: 0 1px;
+}
+
+#item_detail table {
+	margin-bottom: 30px;
+}
+
+#item_detail thead th {
+	white-space: normal;
+	height: 55px;
+}
